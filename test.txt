@@ -1,0 +1,1 @@
+This is test file to find the charector length.
