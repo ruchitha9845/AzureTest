@@ -15,6 +15,9 @@ steps:
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
+    echo "Connecting to MySQL database..."
+    mysql -h TEST-DB-TSTA.0487.P2.TUT.R53.CD2.BP.COM -u SQL_RARG2S -pL#GGFGFY5 -D EPSCLDTSTA -e "SELECT * FROM CURVE_DEFINITIONS WHERE curve_num in (5813);"
+  displayName: 'Connect to MySQL Database'
     
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
